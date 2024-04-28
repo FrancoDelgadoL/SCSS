@@ -1,0 +1,79 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(9, 9, 9);
+}
+
+.Container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav {
+  margin: 15px;
+  padding: 15px;
+}
+.nav__list {
+  margin: 15px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+.nav__list .nav__item .nav__link {
+  text-decoration: none;
+  padding: 10px;
+  color: rgb(242, 240, 240);
+}
+.nav__list .nav__item .nav__link--active {
+  border-bottom: 5px solid rgb(6, 6, 102);
+}
+
+.sectOne {
+  border-radius: 20px;
+  margin: 15px;
+  padding: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.sectOne h2 {
+  color: rgb(15, 14, 14);
+}
+.sectOne p {
+  color: rgb(15, 14, 14);
+}
+.sectOne .artOne {
+  border: 1px solid blue;
+  margin: 15px;
+  background-color: aqua;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 150px;
+}
+
+summary {
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.Query-p {
+  color: white;
+}
+
+.Query {
+  padding: 10px;
+}
+.Query-list {
+  border: 1px solid;
+}
+.Query-list .Query-item {
+  padding: 10px;
+}/*# sourceMappingURL=style.css.map */
